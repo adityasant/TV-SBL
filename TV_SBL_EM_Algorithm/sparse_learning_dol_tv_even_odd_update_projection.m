@@ -1,4 +1,4 @@
-function [mu,dmu,k,gamma] = sparse_learning2_even_odd_update_projection(Phi,T,lambda,iters,flag1,flag2,flag3,beta_sbl,SNR,SigmaN)
+function [mu,dmu,k,gamma] = sparse_learning_dol_tv_even_odd_update_projection(Phi,T,lambda,iters,flag1,flag2,flag3,beta_sbl,SNR,SigmaN)
 
 
 % *** Control parameters ***
